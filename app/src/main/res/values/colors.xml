@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#DA0921</color>
+    <color name="colorPrimaryDark">#A7091B</color>
+    <color name="colorAccent">#DA0921</color>
+    <color name="red">#DA0921</color>
+    <color name="greyy">#B3AFAF</color>
+    <color name="colorone">#3298db</color>
+    <color name="colortwo">#bf5f45</color>
+    <color name="colorthree">#5dcf8c</color>
+    <color name="colorfour">#30aab8</color>
+    <color name="colorfive">#f0b05d</color>
+    <color name="colorsix">#d99a8f</color>
+    <color name="grey">#A7A2A2</color>
+
+    <color name="light_gray">#d3d3d3</color>
+    <color name="dark_purple">#690339</color>
+    <color name="colorGray">#607D8B</color>
+    <color name="black">#000000</color>
+
+    <color name="colorBackground_black">#0A0808</color>
+
+    <color name="windowBackground_light">#F4F4F6</color>
+    <color name="windowBackground_dark">#33343B</color>
+
+    <color name="dot_inactive">#4DF57C00</color>
+    <color name="white">#ffffff</color>
+    <color name="lightwhite" tools:ignore="MissingDefaultResource">#A39D9D</color>
+
+    <!-- DOTS COLOR -->
+
+    <array name="array_dot_active">
+        <item>@color/white</item>
+        <item>@color/white</item>
+        <item>@color/white</item>
+        <item>@color/white</item>
+        <item>@color/white</item>
+        <item>@color/white</item>
+        <item>@color/white</item>
+        <item>@color/white</item>
+        <item>@color/white</item>
+        <item>@color/white</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/lightwhite</item>
+        <item>@color/lightwhite</item>
+        <item>@color/lightwhite</item>
+        <item>@color/lightwhite</item>
+        <item>@color/lightwhite</item>
+        <item>@color/lightwhite</item>
+        <item>@color/lightwhite</item>
+        <item>@color/lightwhite</item>
+        <item>@color/lightwhite</item>
+        <item>@color/lightwhite</item>
+    </array>
+
+</resources>
