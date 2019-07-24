@@ -86,18 +86,32 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp">
 
+
+
+
                     <android.support.v7.widget.GridLayout
                         android:id="@+id/selected_photos_containerr"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:paddingTop="10dp"
+                        android:layout_marginTop="5dp"
                         android:paddingBottom="50dp"
                         android:layout_margin="5dp"
                         android:scrollbarStyle="outsideInset"
                         android:smoothScrollbar="true"
                         android:verticalSpacing="10dp"
                         app:columnCount="3" />
+                   <!-- <ImageView
+                        android:id="@+id/iv2_click"
+                        android:layout_width="80dp"
+                        android:visibility="gone"
+                        android:layout_height="60dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/addiconnew" />-->
+
+
+
                 </ScrollView>
+
                 <!--  <HorizontalScrollView
                       android:id="@+id/hori_scroll_view"
                       android:layout_width="match_parent"

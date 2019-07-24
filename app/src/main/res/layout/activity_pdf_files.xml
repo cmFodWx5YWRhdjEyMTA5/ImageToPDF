@@ -60,8 +60,11 @@
 
         <ListView
             android:id="@+id/list2"
+            android:background="#F0EBE9"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"></ListView>
+            android:layout_height="wrap_content">
+
+        </ListView>
 
         <TextView
             android:id="@+id/no_pdf_file"

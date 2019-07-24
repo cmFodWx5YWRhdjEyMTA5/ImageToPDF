@@ -138,7 +138,7 @@ public class CwacCameraFragment extends CameraFragment {
 
         PictureTransaction pictureTransaction = new PictureTransaction(getCameraHost());
         pictureTransaction.needBitmap(true);
-        pictureTransaction.flashMode(flashMode);
+       // pictureTransaction.flashMode(flashMode);
         super.takePicture(pictureTransaction);
     }
 

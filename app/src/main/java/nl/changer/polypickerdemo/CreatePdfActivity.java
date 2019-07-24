@@ -81,6 +81,7 @@ public class CreatePdfActivity extends AppCompatActivity {
         mContext = CreatePdfActivity.this;
         iv_backk = findViewById(R.id.iv_backk);
         btn_clear = findViewById(R.id.btn_clear);
+      //  iv2_click = findViewById(R.id.iv2_click);
 
         StrictMode.VmPolicy.Builder builder = new StrictMode.VmPolicy.Builder();
         StrictMode.setVmPolicy(builder.build());
@@ -236,8 +237,18 @@ public class CreatePdfActivity extends AppCompatActivity {
         // adding the new ones.
 
         //mSelectedImagesContainer.removeAllViews();
-       // int imageadd = R.drawable.addiconnew;
-        //fileslist.add(String.valueOf(imageadd));
+       int imageadd = R.drawable.addiconnew;
+       File ff=new File(String.valueOf(imageadd));
+        fileslist.add(String.valueOf(ff));
+
+
+       /* iv2_click.setVisibility(View.VISIBLE);
+        iv2_click.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                getNImages();
+            }
+        });*/
         Iterator<Image> iterator = mMediaImages.iterator();
         ImageInternalFetcher imageFetcher = new ImageInternalFetcher(this, 500);
         while (iterator.hasNext()) {
@@ -281,6 +292,11 @@ public class CreatePdfActivity extends AppCompatActivity {
             int htpx = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 80, getResources().getDisplayMetrics());
             thumbnail.setLayoutParams(new FrameLayout.LayoutParams(wdpx, htpx));
 
+
+            ViewGroup.MarginLayoutParams layoutParams =
+                    (ViewGroup.MarginLayoutParams) imageHolder.getLayoutParams();
+            layoutParams.setMargins(5,5,5,5);
+            imageHolder.requestLayout();
 //            FrameLayout.LayoutParams parentParams = new FrameLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
 //            parentParams.setMargins(5,5,5,5);
 //            mSelectedImagesContainer.setLayoutParams(parentParams);
@@ -308,13 +324,13 @@ public class CreatePdfActivity extends AppCompatActivity {
                     public void onClick(View view) {
 
                         // ((LinearLayout) linearLayout.getChildAt(i)).removeViewAt(j);
-                        View v = ((FrameLayout)
-                                mSelectedImagesContainer.getChildAt(index));
+                        View v = ((FrameLayout) mSelectedImagesContainer.getChildAt(index));
                         mSelectedImagesContainer.removeView(v);
 
 
                     }
                 });
+
 
                 //sizeimages=index;
                 //  Log.d(TAG, "showMedia76: "+container.getId());

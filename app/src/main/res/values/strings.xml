@@ -2,24 +2,26 @@
 
 
     <!--<string name="appname" tools:ignore="MissingTranslation">AVI Pdf Pro</string>-->
-    <string name="title">PDF Actions</string>
+    <string name="title" tools:ignore="MissingTranslation">PDF Actions</string>
 
-    <string name="file_name_text">File Name</string>
-    <string name="select_images_text">Select Images</string>
-    <string name="password_protect_pdf_text">Password Protect PDF</string>
-    <string name="edit_images_text">Edit Images</string>
-    <string name="open_pdf_text">Open PDF</string>
-    <string name="create_pdf_text">Create PDF</string>
-    <string name="details"><b>Details</b></string>
-    <string name="search_hint">Name of file</string>
-    <string name="search">search</string>
-    <string name="set_page_size_text">Set Page Size</string>
-    <string name="preview_image_to_pdf">Preview PDF</string>
+    <string name="file_name_text" tools:ignore="MissingTranslation">File Name</string>
+    <string name="select_images_text" tools:ignore="MissingTranslation">Select Images</string>
+    <string name="password_protect_pdf_text" tools:ignore="MissingTranslation">Password Protect PDF</string>
+    <string name="edit_images_text" tools:ignore="MissingTranslation">Edit Images</string>
+    <string name="open_pdf_text" tools:ignore="MissingTranslation">Open PDF</string>
+    <string name="create_pdf_text" tools:ignore="MissingTranslation">Create PDF</string>
+    <string name="details" tools:ignore="MissingTranslation"><b>Details</b></string>
+    <string name="search_hint" tools:ignore="MissingTranslation">Name of file</string>
+    <string name="search" tools:ignore="MissingTranslation">search</string>
+    <string name="set_page_size_text" tools:ignore="MissingTranslation">Set Page Size</string>
+    <string name="preview_image_to_pdf" tools:ignore="MissingTranslation">Preview PDF</string>
 
-    <string name="font_color">Font Color</string>
+    <string name="font_color" tools:ignore="MissingTranslation">Font Color</string>
+    <string name="abouttext" tools:ignore="MissingTranslation"> \u0020 \u0020 We are one-stop custom software \n solutions provider for small and medium\n enterprise-level businesses. We offer\n innotiative solutions to help your business \n achieve its unique goals by leveraging\n cutting-edge technologies.\n\n \u0020 \u0020  As a software development company,our\n goal is to give your business the perfect\n tools developed throgh our three-phased \n software development process to help you \n connect with your customers and partners.\n\n  \u0020 \u0020  ClickAvi is a software development \n company that understands the need for\n unique and custom solutions. Whether you\n need a mobile app, a corporate portal,or a\n custom software olution.our software\nspecialists are here to help realize goals.</string>
 
-    <string name="default_content_description">no description</string>
-    <string name="prompt_input">Enter here</string>
+
+    <string name="default_content_description" tools:ignore="MissingTranslation">no description</string>
+    <string name="prompt_input" tools:ignore="MissingTranslation">Enter here</string>
     <array name="items">
         <item>Open File</item>
         <item>Delete File</item>

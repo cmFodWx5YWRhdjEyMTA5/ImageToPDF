@@ -20,14 +20,14 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_weight="0.2"
+            android:layout_weight="0.3"
             android:src="@drawable/ic_arrow_back_black_24dp"
             tools:ignore="VectorDrawableCompat" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1.6"
+            android:layout_weight="1.5"
             android:gravity="center"
             android:text="WATERMARK PDF"
             android:textStyle="bold"
